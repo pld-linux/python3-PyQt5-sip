@@ -1,14 +1,14 @@
 %define		module	PyQt5-sip
 Summary:	The sip module support for PyQt5
 Name:		python3-%{module}
-Version:	12.11.0
+Version:	12.11.1
 Release:	1
 Epoch:		2
 License:	GPL v3
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/MODULE/
 Source0:	https://files.pythonhosted.org/packages/source/P/PyQt5_sip/PyQt5_sip-%{version}.tar.gz
-# Source0-md5:	190c585ed6fcb5730f550b1330cd473f
+# Source0-md5:	1036bf431e155f198309ea8c7a5082cf
 URL:		https://www.riverbankcomputing.com/software/sip/
 BuildRequires:	python3-devel >= 1:3.2
 BuildRequires:	rpm-pythonprov
