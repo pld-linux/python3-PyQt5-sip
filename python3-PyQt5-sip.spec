@@ -21,18 +21,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The sip extension module provides support for the PyQt5 package.
 
-%package apidocs
-Summary:	API documentation for Python %{module} module
-Summary(pl.UTF-8):	Dokumentacja API modułu Pythona %{module}
-Group:		Documentation
-BuildArch:	noarch
-
-%description apidocs
-API documentation for Python %{module} module.
-
-%description apidocs -l pl.UTF-8
-Dokumentacja API modułu Pythona %{module}.
-
 %prep
 %setup -q -n PyQt5_sip-%{version}
 
