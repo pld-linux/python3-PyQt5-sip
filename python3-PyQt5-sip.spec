@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	obsolete_py2	# obsolete python 2.x package
+
 %define		module	PyQt5-sip
 Summary:	The sip module support for PyQt5
 Summary(pl.UTF-8):	Obsługa PyQt5 dla modułu sip
@@ -18,6 +22,9 @@ BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	python3-modules >= 1:3.8
+%if %{with obsolete_py2}
+Obsoletes:	python-PyQt5-sip < 2:5
+%endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
