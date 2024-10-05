@@ -7,7 +7,7 @@ Summary:	The sip module support for PyQt5
 Summary(pl.UTF-8):	Obsługa PyQt5 dla modułu sip
 Name:		python3-%{module}
 Version:	12.15.0
-Release:	1
+Release:	2
 Epoch:		2
 License:	BSD
 Group:		Libraries/Python
