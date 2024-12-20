@@ -6,14 +6,14 @@
 Summary:	The sip module support for PyQt5
 Summary(pl.UTF-8):	Obsługa PyQt5 dla modułu sip
 Name:		python3-%{module}
-Version:	12.15.0
-Release:	2
+Version:	12.16.1
+Release:	1
 Epoch:		2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pyqt5-sip/
-Source0:	https://files.pythonhosted.org/packages/source/P/PyQt5_sip/PyQt5_sip-%{version}.tar.gz
-# Source0-md5:	9e0909e79f40619b0f2d3d3c33b4d4f7
+Source0:	https://files.pythonhosted.org/packages/source/p/pyqt5_sip/pyqt5_sip-%{version}.tar.gz
+# Source0-md5:	8f868771ebccc982d73ad03f8cdeb5bd
 URL:		https://www.riverbankcomputing.com/software/sip/
 BuildRequires:	python3-devel >= 1:3.8
 BuildRequires:	python3-setuptools >= 1:30.3
@@ -34,7 +34,7 @@ The sip extension module provides support for the PyQt5 package.
 Rozszerzenie modułu wip, zapewniające obsługę pakietu PyQt5.
 
 %prep
-%setup -q -n PyQt5_sip-%{version}
+%setup -q -n pyqt5_sip-%{version}
 
 %build
 %py3_build
