@@ -31,7 +31,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The sip extension module provides support for the PyQt5 package.
 
 %description -l pl.UTF-8
-Rozszerzenie modułu wip, zapewniające obsługę pakietu PyQt5.
+Rozszerzenie modułu sip, zapewniające obsługę pakietu PyQt5.
 
 %prep
 %setup -q -n pyqt5_sip-%{version}
